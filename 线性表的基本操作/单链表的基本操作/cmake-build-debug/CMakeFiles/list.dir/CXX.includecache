@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/DSA/线性表的基本操作/单链表的基本操作/list.cpp
+list.h
+/home/liuhongwei/workspace/DSA/线性表的基本操作/单链表的基本操作/list.h
+stdlib.h
+-
+
+/home/liuhongwei/workspace/DSA/线性表的基本操作/单链表的基本操作/list.h
+

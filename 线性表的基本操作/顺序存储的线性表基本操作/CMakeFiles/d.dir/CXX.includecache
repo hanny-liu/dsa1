@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/DSA/线性表的基本操作/顺序存储的线性表基本操作/d1.cpp
+d1.h
+/home/liuhongwei/workspace/DSA/线性表的基本操作/顺序存储的线性表基本操作/d1.h
+
+/home/liuhongwei/workspace/DSA/线性表的基本操作/顺序存储的线性表基本操作/d1.h
+malloc.h
+-
+
