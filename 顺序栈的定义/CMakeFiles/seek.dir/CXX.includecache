@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/DSA/顺序栈的定义/seek.h
+
+/home/liuhongwei/workspace/DSA/顺序栈的定义/seekblanket.cpp
+iostream
+-
+seek.h
+/home/liuhongwei/workspace/DSA/顺序栈的定义/seek.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/DSA/顺序栈的定义/main.cpp
+iostream
+-
+orderstack.h
+/home/liuhongwei/workspace/DSA/顺序栈的定义/orderstack.h
+
+/home/liuhongwei/workspace/DSA/顺序栈的定义/orderstack.h
+

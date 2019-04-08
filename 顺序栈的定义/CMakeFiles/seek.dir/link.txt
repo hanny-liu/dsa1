@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/seek.dir/seekblanket.cpp.o CMakeFiles/seek.dir/seek.cpp.o  -o seek 
