@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/STACK_ARR.dir/stack_arr.cpp.o CMakeFiles/STACK_ARR.dir/stack_a.cpp.o  -o STACK_ARR 

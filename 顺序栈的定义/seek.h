@@ -1,45 +1,1 @@
-//
-// Created by liuhongwei on 19-3-18.
-//
-
-#ifndef SEEK_SEEK_H
-#define SEEK_SEEK_H
-
-
-class orderstack {
-public:
-    int top;//é¡ºåºæ ˆå†…çš„å…ƒç´ ä¸ªæ•°
-    int size;//ç©ºé—´å¤§å°
-    char *p;//åŠ¨æ€åˆ†é…å›ºå®šç©ºé—´
-
-};
-
-enum status{
-    success,fail,fatal,range_error
-};
-//é¡ºåºæ ˆåˆå§‹åŒ–
-status stack_init(orderstack *l);
-
-//é”€æ¯æ ˆ
-void stack_destroy(orderstack *l);
-
-//æ ˆçš„é•¿åº¦
-int length_stack(orderstack *l);
-
-//æ ˆæ˜¯å¦ä¸ºç©º
-bool stack_empty(orderstack *l);
-
-//æ¸…ç©ºæ ˆ
-status stack_clear(orderstack *l);
-
-//æŸ¥çœ‹æ ˆé¡¶å…ƒç´ 
-status stack_top(orderstack *l,  char & elem);
-
-//å…¥æ ˆ
-status stack_push(orderstack *l, char & elem);
-
-//å‡ºæ ˆ
-status stack_pop(orderstack *l,char & elem);
-
-
-#endif //SEEK_SEEK_H
+š½fa¬¥ßš…•}K³ß,Œµô{³°²oiVfa¬¥?š…•}Kss³0ÖÒŸÍÂÊ¾¥¹¥Yké¯faeßÒÜÚ,Œµôw³°²oinkÆZú§YXÙ·4·7c-ýÛ,¬ì[š;š…±–þ[ó’7Ë¾¥¹sÍK>PÖÍjYXÙ·4w1+ëf5¦YXÙ·4w3+ëf5¶YXÙ·4÷0+ëf5®YXÙ·4÷2+ëf5¾YXÙ·4÷1+ëf5¡YXÙ·4÷3+ëf5±YXÙ·40+ëf5©YXÙ·42+ëf5¹YXÙ·41+ëf5¥YXÙ·43+ëf5µYXÙ·40+ëfÅºxd}†(÷´fÙ—T¬¡xZœª¦÷¿É[ö-Ícüoòß–u³šÑ–gp-3XžÁ}â™…goMö:ÇyfáÙ[UÖÕjfópö:'˜‡—uµšÕ,Œ½ÎIfae]­f7c¯sŠYXYW«9ÍÂØëœfVÖÕjn³°#ëïîšMç÷Ÿç‹<#ÄÓÓëç‹Ÿû°âÙöC~|oMö=~|oÏðX“½Ñ¯Uóùgæ#žŸåŸ™gŒÅój~³<cÄó³ÍòŒ±x^-`–gŒx~ŽYž1Ï+žOÜç¿¿»ÉÞj#ÿüÝÏ¶ïñX“}Õ^«x~q—×Àšì½Ö÷XÅ³í;¼Ödßµ®×À*žoÜæ5°œß×öXÎï7™7ÙË±/[Ý¼*û†Šç7x¬ÉÞmU¯U<ûæùÃu^×dßÆó‡•½®âùÈU^k²·[Þk`Ï¾¯ðX“}Ý²^«þÿùÉ²&{¿¥½Vñìû¯5Ù÷-é5°Šç+y¬ÉÞpq¯U<û¾Àk`Mö…‹z¬âùËy^k²w\Øk`ïKã5°&ûÆ½Vñ|æ,¯5Ù[Îï5°Š÷¥ÎðX“}å¼^«x~sš×Àšì=çöXÅ

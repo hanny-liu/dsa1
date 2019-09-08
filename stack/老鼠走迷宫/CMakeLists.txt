@@ -1,0 +1,9 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.13)
+PROJECT(MOUSE_MAZE)
+SET(CMAKE_CXX_STANDARD 14)
+
+#需要包含eigen库
+INCLUDE_DIRECTORIES("/usr/include/eigen3")
+
+
+ADD_EXECUTABLE(mouse_maze Maze.cpp stack_ls.cpp)

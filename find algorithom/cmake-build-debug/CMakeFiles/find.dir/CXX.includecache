@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/dsa1/find algorithom/orderlistfind.cpp
+iostream
+-
+vector
+-
+queue
+-
+math.h
+-
+map
+-
+stdlib.h
+-
+iomanip
+-
+

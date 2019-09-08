@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mouse_maze.dir/Maze.cpp.o CMakeFiles/mouse_maze.dir/stack_ls.cpp.o  -o mouse_maze 

@@ -1,64 +1,9 @@
-//
-// Created by liuhongwei on 19-3-18.
-//
-#include <iostream>
-#include "seek.h"
-
-using namespace std;
-
-int main()
-{
-    cout<<"è¯·è¾“å…¥æ‹¬å·è¿ç®—ç¬¦ï¼š\nè¾“å…¥#é€€å‡ºç¨‹åº"<<endl;
-    char n;
-    orderstack *l,L;
-    l=&L;
-    stack_init(l);
-    while(n!='#')
-    {
-        cin>>n;
-        if(n=='('||n=='{'||n=='[')
-            stack_push(l,n);
-        else
-        {
-            char elem;
-            //elem=&e;
-            stack_top(l,elem);
-            //cout<<e<<endl;
-            if(elem=='(')
-                if(n==')')
-                {
-                    stack_pop(l,elem);
-                }
-                else
-                {
-                    stack_clear(l);
-                    stack_destroy(l);
-                    cout<<"åŒ¹é…å¤±è´¥ï¼"<<endl;
-                    break;
-                }
-            else if(elem=='[')
-                if(n==']')
-                    stack_pop(l,elem);
-                else
-                {
-                    stack_clear(l);
-                    stack_destroy(l);
-                    cout<<"åŒ¹é…å¤±è´¥ï¼"<<endl;
-                    break;
-                }
-            else if(elem=='{')
-                if(n=='}')
-                    stack_pop(l,elem);
-                else
-                {
-                    stack_clear(l);
-                    stack_destroy(l);
-                    cout<<"åŒ¹é…å¤±è´¥ï¼"<<endl;
-                    break;
-                }
-        }
-
-    }
-
-
-}
+ì}MöşeÀwÜW¿ 3Íl¹^?ÍÙr_8½àµ/¯_‹s½àµgÃ¾ôVï)¬Òâì°pûËÅŞõfï)¬ÒâÜ°`ûöºì[oôÂ*-Îó·ïa-fo{½÷Viq®˜·}{aöµ×zOa•g¹Û÷\Z.ö¾W{Oa•ç9Û÷°Wfß;Ì{
+«´8›ÌŞ¾çòr±7¾Â{
+«´8—ÌÚ¾‡½4ëşeŞSX¥ÅÙeæö=W–‹ö%ŞSX¥Å¹eÆö=ìµÙ7_ä=…UZœm¦oßsU¹øo¿À{
+«´8×LÛ¾‡½8ûêó¼§°J‹³ÏÔí{®)³9Ç{
+«´8÷LÙ¾‡½:ûî³¼§ÅçŒt~òö=×Ur>âuÍ¶8Úš¸ıºòÚ³O½¾ıºVÂ*­IÚ¯ë…aÕúí×µViMÚ~]/
+«Öÿÿu­…UZ“µ_×‹Ãªõ›Ú¯k=¬Òš¼ıº^V­ßÜ~]Ç«´¦h¿®—†Uë·´_×1Ã*­)Û¯ëeaÕú­í×u¬°JkªöëzyXµ~[ûu;¬Òšºıº^V­ßŞ~]Ç	«´¦i¿®W†Uëw´_×qÃ*­iÛ¯ë°°jıÎöë:^X¥5]ûu½*¬Z¿«ıºViMß~]¯«Öïn¿®„UZ3´_×kÂªõ{|]sOÙË¶fl¿®×†Uë÷úºåRŞc[3µ_7^[Şÿ×~İ&«´fn¿n×‡Uë÷µ_·IÂ*­YÚ¯ÛaÕúıí×mÒ°JkÖöëvcXµş@ûu›,¬Òš­ıºİV­?Ø~İ&«´fo¿n7‡Uëµ_·)Â*­9Ú¯Û-aÕúÃí×mÊ°JkÎöëvkXµşHûu›*¬Òš«ıºİV­?Ú~İ¦«´æn¿n·‡Uëµ_·iÂ*­yÚ¯ÛaÕúãí×mÚ°JkŞöëvgXµşDûu›.¬Òš¯ıºİV­?Ù~İ¦«´æo¿nw‡UëOå5õrVn-×Ô{8«qîz¥}6ÂQŞW7ölÄ÷$õg’…ñ=Ik¡d~‡‚ƒÏ&ó;[8™ß¡àØsÉü‡Iæw(8ô|2¿CÁ‘E“ù
+¼ÌïPp`±d~‡‚/&ó;:¾x2¿C¡ã/%ó;z¾D2¿C¡ç/'ó;:ºd2¿C¡£¯$ó;:¸T2¿C¡ƒ¯&ó;:¶t2¿C¡c¯%ó;:´L2¿C¡C¯'ó;:²l2¿C¡#o$ó;:°\2¿C¡o&ó;^ãå“ù
+¯ñ[Éü?WHæw(øùv2¿CÁ¿“ù
+ş½“ÌïPğk¥d~‡‚_ï&ó;üY9™ß¡àÏ{Éü?VIæw(øñ~2¿C¡ÿ«&ó;úÿA2¿C¡ß«%ó;úıa2¿CY ü¼z2¿CyºüüQ2¿C)=m­‘ÌïPJOë'ó;”ÒÃÖšÉü¥ô°şI2¿C¡gK$ó;zör›Ó¡ÒƒÖZmN‡JêŸ&ó;’ò:·ÖNæw$åu®–ÌïHÊëØZ'™ß‘”×±şy2¿#)¯Skİd~GR^§:ç¢tO[|î±½ãiıËd2şüë'“ñçÿ*™¬xÚÚ ™ŒÏb8³¾ç¿#ÿöÅÛ¶ÿüs¾I&ãŸ³Q2ÿœo“É6(×ÆÉd_—‹sã;ş;òÏá3—­Ûÿş9ß'“ñÏÙ4™ŒÎÉd—k³d²rV®ÿØş÷.ìûLkóö¿÷9ßgê?eOãÈû$Ÿ»°¹®ı>É™•ÏOkßg5qû¾ÂY÷òkç6¼ÂC\*gÚ¬{3…UZ|ns_ûr®—3mÖ½™Ã*-şì÷·ï)gáz9Ófİ›%¬ÒâsÚ÷”³p½œi³îÍVi1·Û÷”³p½œi³îÍViñ¹ÏCí{ÊY¸^Î´Y÷f«´x]nßSÎÂõr¦Íº7G

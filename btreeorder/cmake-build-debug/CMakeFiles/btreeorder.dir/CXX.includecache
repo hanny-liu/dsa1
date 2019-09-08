@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/dsa1/btreeorder/btree.h
+iostream
+-
+
+/home/liuhongwei/workspace/dsa1/btreeorder/main.cpp
+iostream
+-
+vector
+-
+btree.h
+/home/liuhongwei/workspace/dsa1/btreeorder/btree.h
+

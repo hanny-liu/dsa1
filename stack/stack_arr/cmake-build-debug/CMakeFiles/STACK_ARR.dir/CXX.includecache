@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhongwei/workspace/dsa1/stack/stack_arr/stack_a.cpp
+stack_a.h
+/home/liuhongwei/workspace/dsa1/stack/stack_arr/stack_a.h
+
+/home/liuhongwei/workspace/dsa1/stack/stack_arr/stack_a.h
+iostream
+-
+
+/home/liuhongwei/workspace/dsa1/stack/stack_arr/stack_arr.cpp
+iostream
+-
+stack_a.h
+/home/liuhongwei/workspace/dsa1/stack/stack_arr/stack_a.h
+

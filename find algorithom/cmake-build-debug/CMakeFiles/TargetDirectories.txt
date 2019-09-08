@@ -1,0 +1,3 @@
+/home/liuhongwei/workspace/dsa1/find algorithom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liuhongwei/workspace/dsa1/find algorithom/cmake-build-debug/CMakeFiles/find.dir
+/home/liuhongwei/workspace/dsa1/find algorithom/cmake-build-debug/CMakeFiles/edit_cache.dir
